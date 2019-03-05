@@ -1,0 +1,13 @@
+<VirtualHost *:8080>
+  DocumentRoot "{{ getenv "APACHE_WEBROOT" }}"
+
+  SetEnvIf Request_URI "^/favicon\.ico$" dontlog
+  SetEnvIf Request_URI "^/robots\.txt$" dontlog
+
+  <Directory {{ getenv "APACHE_WEBROOT" }}>
+    Options Indexes FollowSymLinks MultiViews
+    AllowOverride All
+
+    Require all granted
+  </Directory>
+</VirtualHost>
