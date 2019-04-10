@@ -1,4 +1,4 @@
-FROM webhippie/apache:latest@sha256:abd8de9b19bd0d14e22aa6b185a2c297099464b45bdd60dc275c843141816a34
+FROM webhippie/apache:latest@sha256:ffdca10c321fdc7b4357fb4d6558279054bb3055292b38d63b3a7cf3814cf384
 
 LABEL maintainer="Thomas Boerger <thomas@webhippie.de>" \
   org.label-schema.name="PHP Apache" \
