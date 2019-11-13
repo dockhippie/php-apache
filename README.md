@@ -3,7 +3,7 @@
 [![Build Status](https://cloud.drone.io/api/badges/dockhippie/php-apache/status.svg)](https://cloud.drone.io/dockhippie/php-apache)
 [![](https://images.microbadger.com/badges/image/webhippie/php-apache.svg)](https://microbadger.com/images/webhippie/php-apache "Get your own image badge on microbadger.com")
 
-These are docker images for [PHP](https://secure.php.net) on Apache running on a [Alpine container](https://registry.hub.docker.com/u/webhippie/alpine/).
+These are docker images for [PHP](https://secure.php.net) on Apache running on a [Apache container](https://registry.hub.docker.com/u/webhippie/apache/).
 
 
 ## Versions
