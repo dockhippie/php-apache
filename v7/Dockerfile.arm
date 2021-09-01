@@ -1,4 +1,4 @@
-FROM webhippie/apache:latest-arm
+FROM webhippie/apache:latest-arm@sha256:78c45a0001356fcf301b82a1d0f1ef9606d8388be15884ebf158bac4e09f8ed2
 
 VOLUME ["/etc/php7/custom.d"]
 EXPOSE 8080
