@@ -1,21 +1,24 @@
 # php-apache
 
-[![Docker Build](https://github.com/dockhippie/php-apache/workflows/docker/badge.svg)](https://github.com/dockhippie/php-apache/actions?query=workflow%3Adocker) [![Readme Build](https://github.com/dockhippie/php-apache/workflows/readme/badge.svg)](https://github.com/dockhippie/php-apache/actions?query=workflow%3Areadme) [![Docker Size](https://img.shields.io/docker/image-size/webhippie/php-apache/latest)](#) [![Docker Pulls](https://img.shields.io/docker/pulls/webhippie/php-apache)](https://hub.docker.com/r/webhippie/php-apache) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/php-apache)
+[![Docker Build](https://github.com/dockhippie/php-apache/actions/workflows/docker.yml/badge.svg)](https://github.com/dockhippie/php-apache/actions/workflows/docker.yml) [![GitHub Repo](https://img.shields.io/badge/github-repo-yellowgreen)](https://github.com/dockhippie/php-apache)
 
-These are docker images for [PHP](https://secure.php.net) on Apache running on our [Apache image](https://github.com/dockhippie/apache).
+These are docker images for [PHP][upstream] running on our
+[Apache image][parent].
 
 ## Versions
 
-For the available versions please look at [Docker Hub](https://hub.docker.com/r/webhippie/php-apache/tags) or [Quay](https://quay.io/repository/webhippie/php-apache?tab=tags) or check the existing folders within the [GitHub repository](https://github.com/dockhippie/php-apache).
+For the available versions please look at [Docker Hub][dockerhub] or
+[Quay][quayio] or check the existing folders within the
+[GitHub repository][github].
 
 ## Volumes
 
-* /srv/www
-* /etc/php8/custom.d
+*  /srv/www
+*  /etc/php8/custom.d
 
 ## Ports
 
-* 8080
+*  8080
 
 ## Available environment variables
 
@@ -70,3 +73,9 @@ MIT
 ```console
 Copyright (c) 2015 Thomas Boerger <http://www.webhippie.de>
 ```
+
+[upstream]: https://secure.php.net
+[parent]: https://github.com/dockhippie/apache
+[dockerhub]: https://hub.docker.com/r/webhippie/php-apache/tags
+[quayio]: https://quay.io/repository/webhippie/php-apache?tab=tags
+[github]: https://github.com/dockhippie/php-apache
