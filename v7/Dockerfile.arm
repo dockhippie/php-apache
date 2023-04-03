@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/apache:latest-arm@sha256:9b6cc8dcd985f476482d0287ac6fce8ddf85d461c0b6b7c3f284414c25faa932
+FROM ghcr.io/dockhippie/apache:latest-arm@sha256:8dc5a82f1d2143285a05d30bcc8cdfb787eb27991bafbc2b45ff96602abc173d
 
 VOLUME ["/etc/php7/custom.d"]
 EXPOSE 8080
