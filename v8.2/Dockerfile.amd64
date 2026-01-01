@@ -17,5 +17,8 @@ EXPOSE 8080
 
 COPY ./overlay /
 
+RUN find /etc/container.d /etc/entrypoint.d -type f -name \*.sh -exec sed -i 's/\r$//' {} +; \
+  chmod +x /etc/container.d/*.sh /etc/entrypoint.d/*.sh
+
 RUN curl -sSLo - https://getcomposer.org/installer | php -- --install-dir=/usr/bin --filename=composer && \
   curl -sSLo /etc/php${PHP_PACKAGE_VERSION}/browscap.ini http://browscap.org/stream\?q=PHP_BrowsCapINI

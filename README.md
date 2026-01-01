@@ -14,7 +14,6 @@ For the available versions please look at [Docker Hub][dockerhub] or
 ## Volumes
 
 *  /srv/www
-*  /etc/php7/custom.d
 *  /etc/php8/custom.d
 
 ## Ports
@@ -24,6 +23,7 @@ For the available versions please look at [Docker Hub][dockerhub] or
 ## Available environment variables
 
 ```console
+GITHUB_TOKEN =
 PHP_ALLOW_URL_FOPEN = On
 PHP_ALLOW_URL_INCLUDE = Off
 PHP_COMPOSER_INSTALL = true
