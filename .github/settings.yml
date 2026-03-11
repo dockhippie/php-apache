@@ -1,7 +1,7 @@
 ---
 repository:
   name: php-apache
-  description: Docker images for php-apache
+  description: Docker images for Apache PHP
   topics: docker, image
 
   private: false
