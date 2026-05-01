@@ -1,4 +1,4 @@
-FROM ghcr.io/dockhippie/apache:latest-arm@sha256:87b663db0cf632204fef97ee39a9f29f7b48dac3de8e8f870b9b31fad1d5eed9
+FROM ghcr.io/dockhippie/apache:latest-arm@sha256:a386fae78bda70c15d6cc99d4d0ca6f8718c1ceca4419e8c7ffdc0bcda9fbd51
 
 WORKDIR /srv/www
 CMD ["/usr/bin/container"]
